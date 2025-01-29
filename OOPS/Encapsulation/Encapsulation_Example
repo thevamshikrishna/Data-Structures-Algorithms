@@ -1,0 +1,41 @@
+//Encapsulation Supports Functionality and Maintainability of Code
+
+class Main {
+    private int size;
+    private String name;
+    private String color;
+
+    public void setSize(int size){
+        this.size=size;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+    public void setColor(String color){
+        this.color=color;
+    }
+
+    public int getSize(){
+        return size;
+    }
+    public String getName(){
+        return name;
+    }
+    public String getColor(int x){
+        return color;
+    }
+
+
+    public static void main(String[] args) {
+        Hello obj=new Hello();
+        obj.method();
+    }
+}
+
+class Hello{
+    public void method(){
+        Main obj=new Main();
+        obj.setName("Krishna");
+        System.out.println(obj.getName());
+    }
+}
