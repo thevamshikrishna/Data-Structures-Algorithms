@@ -1,0 +1,56 @@
+Basic String Operations
+
+1.Create a program to check if two strings are equal without using .equals().
+
+2.Write a Java program to reverse a given string without using built-in functions.
+
+3.Convert a given string to uppercase and lowercase using toUpperCase() and toLowerCase().
+
+4.Write a program to find the length of a string without using .length().
+
+---------------------------------------------------------------------------------------------------------------------
+String Searching & Comparison
+
+5.Check if a string starts with a specific prefix or ends with a specific suffix using startsWith() and endsWith().
+
+6.Find the first and last occurrence of a character in a string using indexOf() and lastIndexOf().
+
+7.Write a program to check if a given string contains a specific substring using contains().
+
+8.Compare two strings lexicographically using compareTo().
+
+------------------------------------------------------------------------------------------------------------
+String Manipulation & Formatting
+
+9.Replace all occurrences of a character in a string using replace() and replaceAll().
+
+10.Split a string into an array using split() and print each element separately.
+
+11.Concatenate two strings in multiple ways (+, concat(), StringBuilder).
+
+12.Trim leading and trailing spaces from a string using trim().
+
+-------------------------------------------------------------------------------------------------------------
+StringBuilder and StringBuffer
+
+13.Demonstrate the difference between String, StringBuilder, and StringBuffer with examples.
+
+14.Use StringBuilder to efficiently reverse a string.
+
+15.Append and insert characters in a string using StringBuffer.
+
+--------------------------------------------------------------------------------------------------------------
+Character Extraction & Conversion
+
+16.Extract a substring using substring(start, end).
+
+17.Convert a character array to a string and vice versa using String.valueOf() and .toCharArray().
+
+18.Convert a string to an integer using Integer.parseInt() and handle exceptions.
+
+19.Convert a string to a byte array and back using getBytes().
+
+---------------------------------------------------------------------------------------------------------------
+Advanced String Operations
+
+20.Check if a string is a palindrome (ignoring case and special characters).
